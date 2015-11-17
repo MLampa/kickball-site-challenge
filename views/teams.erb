@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <% @data_hash.each do |teams, position| %>
+      <h2> <a href="/teams/<%= teams %>"><%=teams%></a> </h2>
+    <% end %>
+
+  </body>
+</html>

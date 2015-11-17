@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <body>
+      <h2> <%= @team %> </h2>
+      <% @team_data.each do |title, name| %>
+      <p> <%= title %>: <%= name %> </p>
+      <% end %>
+
+  </body>
+</html>
